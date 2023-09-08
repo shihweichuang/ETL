@@ -1,8 +1,8 @@
 # Web Crawler Practice
-
+<br>
 練習各種網站資料爬蟲
-
-匯率轉換 (網站：Google)
+<br>
+匯率轉換 (網站：Google) 
 股票種類 (網站：isin.twse.com.tw)
 股票資訊 (網站：Good info)
 股票資訊 (網站：nstock)
