@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+# 預期效果：輸入一個幣值，如果能在 chrome 上出現匯率，則讓爬蟲將其爬取下來，回應在終端機上。
+
 cointype = input('請輸入幣種：')
 
 url = f'https://www.google.com/search?q={cointype}'
