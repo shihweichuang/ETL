@@ -3,6 +3,8 @@ import re
 import json
 from bs4 import BeautifulSoup
 
+# 預期效果：爬取位於 http://ftp.ubuntu-tw.org/ubuntu-releases/ 的特定版本下載連結，並將其存放於 JSON 檔中。
+
 version_list = ['14.04/', '16.04/', '18.04/', '20.04/', '22.04/', '23.04/']
 
 # 預設網址
