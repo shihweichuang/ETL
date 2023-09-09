@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 url = 'https://www.ptt.cc/bbs/Gossiping/index.html'
 
+# 先將【取得res】及【爬取當前頁面文章】的功能寫成函式
 
 def get_res(url):
     cookies = {
